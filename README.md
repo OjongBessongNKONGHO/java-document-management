@@ -26,6 +26,19 @@ The system follows a layered modular structure:
 - `Menu` → User interaction layer
 - `Main` → Application entry point
 
+  ## Architecture Overview
+
+```mermaid
+flowchart TD
+    A["Main"] --> B["Menu"]
+    B --> C["DocumentService"]
+    C --> D["Auteur"]
+    C --> E["Fichier"]
+    C --> F["Dossier"]
+    B --> G["UtilisateurInscrit"]
+```
+
+
 
 ## Technical Concepts Applied
 
