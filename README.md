@@ -1,39 +1,59 @@
 # Java Document Management System
 
-Console-based document management application built using Java and Object-Oriented Programming principles.
+A console-based document management application developed in Java using object-oriented programming principles and modular design.
 
-## Overview
 
-This project allows users to:
-- Create and manage documents
-- Organize documents into folders
-- Manage registered users
-- Navigate through a menu-driven interface
+## Project Objective
 
-The application demonstrates clean OOP design and separation of responsibilities between models and services.
+This project was designed to simulate a structured document management environment capable of:
 
-## Architecture
+- Creating and organizing documents
+- Managing folders (Dossiers)
+- Handling registered users
+- Navigating through a menu-driven interface
 
-Main components:
-- Auteur
-- Dossier
-- Fichier
-- DocumentService
-- Menu
-- Main (entry point)
+The primary objective was to apply clean OOP architecture and separation of responsibilities within a real application structure.
+
+
+## System Architecture
+
+The system follows a layered modular structure:
+
+- `Auteur` → Represents document authors
+- `Fichier` → Represents individual documents
+- `Dossier` → Folder management
+- `DocumentService` → Business logic layer
+- `Menu` → User interaction layer
+- `Main` → Application entry point
+
+
+## Technical Concepts Applied
+
+- Object-Oriented Programming (Encapsulation, Abstraction)
+- Service layer pattern
+- Separation of concerns
+- Modular structure
+- Clean class responsibility distribution
+
 
 ## Technologies
 
 - Java
-- Object-Oriented Programming
-- Modular structure
+- OOP Design
+- Console-based interface
 
-## How to Run
+
+## Compilation
 
 Compile:
 
 javac *.java
 
+
 Run:
 
-java Main
+
+## Author
+
+Ojong Bessong NKONGHO  
+BSc Computer Science & Engineering
